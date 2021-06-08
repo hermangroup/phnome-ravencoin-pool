@@ -15,8 +15,8 @@ Highly Efficient mining pool for Ravencoin!
 | Project | Link |
 | ------------- | ------------- |
 | [PhoenixMax Ravencoin Pool](https://github.com/Racing1/phoenixmax-ravencoin-pool) | https://github.com/Racing1/phoenixmax-ravencoin-pool |
-| [PhoenixMax Ravencoin Stratum](https://github.com/Racing1/jamps-ravencoin-stratum) | https://github.com/Racing1/jamps-ravencoin-stratum |
-| [PhoenixMax Ravencoin Hashing](https://github.com/Racing1/jamps-ravencoin-hashing) | https://github.com/Racing1/jamps-ravencoin-hashing |
+| [PhoenixMax Ravencoin Stratum](https://github.com/Racing1/jamps-ravencoin-stratum) | https://github.com/Racing1/phoenixmax-ravencoin-stratum |
+| [PhoenixMax Ravencoin Hashing](https://github.com/Racing1/jamps-ravencoin-hashing) | https://github.com/Racing1/phoenixmax-ravencoin-hashing |
 
 -------
 ### Requirements
