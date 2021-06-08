@@ -3,7 +3,7 @@ PhoenixMax Ravencoin Pool - v1.0.1 Special Edition
 
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue)](https://opensource.org/licenses/GPL-3.0)
 
-Highly Efficient mining pool for Ravencoin!
+Highly Efficient Mining Pool for Ravencoin!
 
 -------
 ### Screenshots
@@ -15,8 +15,8 @@ Highly Efficient mining pool for Ravencoin!
 | Project | Link |
 | ------------- | ------------- |
 | [PhoenixMax Ravencoin Pool](https://github.com/Racing1/phoenixmax-ravencoin-pool) | https://github.com/Racing1/phoenixmax-ravencoin-pool |
-| [PhoenixMax Ravencoin Stratum](https://github.com/Racing1/jamps-ravencoin-stratum) | https://github.com/Racing1/phoenixmax-ravencoin-stratum |
-| [PhoenixMax Ravencoin Hashing](https://github.com/Racing1/jamps-ravencoin-hashing) | https://github.com/Racing1/phoenixmax-ravencoin-hashing |
+| [PhoenixMax Ravencoin Stratum](https://github.com/Racing1/phoenixmax-ravencoin-stratum) | https://github.com/Racing1/phoenixmax-ravencoin-stratum |
+| [PhoenixMax Ravencoin Hashing](https://github.com/Racing1/phoenixmax-ravencoin-hashing) | https://github.com/Racing1/phoenixmax-ravencoin-hashing |
 
 -------
 ### Requirements
@@ -77,8 +77,8 @@ Other helpfull commands.
     sudo apt install git -y
     cd ~
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/J-A-M-P-S/jamps-ravencoin-pool.git
-    cd jamps-ravencoin-pool/
+    git clone https://github.com/Racing1/phoenixmax-ravencoin-pool.git
+    cd phoenixmax-ravencoin-pool/
     ./install.sh
 
 -------
@@ -86,12 +86,12 @@ Other helpfull commands.
 
 Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.json:
 
-    cd ~/jamps-ravencoin-pool
+    cd ~/phoenixmax-ravencoin-pool
     nano config.json
 
 ```javascript
 {
-    "poolname": "Ravncoin Pool",
+    "poolname": "Ravencoin Pool",
     "devmode": false,
     "devmodePayMinimim": 0.25,
     "devmodePayInterval": 120,
@@ -146,8 +146,8 @@ Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.j
         "host": "0.0.0.0",
         "port": 80,
         "sslport": 443,
-        "sslkey": "/home/pool/jamps-ravencoin-pool/certs/privkey.pem",
-        "sslcert": "/home/pool/jamps-ravencoin-pool/certs/fullchain.pem",
+        "sslkey": "/home/pool/phoenixmax-ravencoin-pool/certs/privkey.pem",
+        "sslcert": "/home/pool/phoenixmax-ravencoin-pool/certs/fullchain.pem",
         "stratumHost": "raven.phoenixmax.org",
         "stats": {
             "updateInterval": 900,
@@ -165,7 +165,7 @@ Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.j
 
 Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wallet address in file ravencoin.json:
 
-    cd ~/jamps-ravencoin-pool/pools
+    cd ~/phoenixmax-ravencoin-pool/pools
     nano ravencoin.json
 
 ```javascript
@@ -175,13 +175,13 @@ Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wal
     "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk",
     "donateaddress": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk",
     "rewardRecipients": {
-        "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk": 0.5
+        "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk": 0.5 // pool fee //
     },
     "paymentProcessing": {
         "enabled": true,
         "schema": "PROP",
-        "paymentInterval": 300,
-        "minimumPayment": 1,
+        "paymentInterval": 300, // 5 minute payment interval - change to your liking //
+        "minimumPayment": 10, // minimunm payout set here //
         "maxBlocksPerPayment": 1,
         "minConf": 30,
         "coinPrecision": 8,
@@ -268,7 +268,7 @@ Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wal
 
 ### Run Pool
     
-    cd ~/jamps-ravencoin-pool
+    cd ~/phoenixmax-ravencoin-pool
     sudo bash pool-start.sh
 
 ### Donations for developers PhoenixMax Ravencoin Pool
