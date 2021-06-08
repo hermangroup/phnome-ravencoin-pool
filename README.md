@@ -8,7 +8,7 @@ Highly Efficient mining pool for Ravencoin!
 -------
 ### Screenshots
 #### Home<br />
-![Home](https://raw.githubusercontent.com/J-A-M-P-S/jamps-ravencoin-pool/master/docs/frontend/home.png)
+![Home](https://raw.githubusercontent.com/Racing1/phoenixmax-ravencoin-pool/master/docs/frontend/home.png)
 
 -------
 ### Node Open Mining Portal consists of 3 main modules:
