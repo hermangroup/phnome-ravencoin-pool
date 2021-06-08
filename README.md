@@ -1,4 +1,4 @@
-JAMPS Ravencoin Pool - v1.0.0 Special Edition
+PhoenixMax Ravencoin Pool - v1.0.1 Special Edition
 ================
 
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue)](https://opensource.org/licenses/GPL-3.0)
@@ -84,7 +84,7 @@ Other helpfull commands.
 -------
 ### Configure Pool
 
-Change "stratumHost": "rvn.jamps.pro", to your IP or DNS in file config.json:
+Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.json:
 
     cd ~/jamps-ravencoin-pool
     nano config.json
@@ -102,9 +102,9 @@ Change "stratumHost": "rvn.jamps.pro", to your IP or DNS in file config.json:
     "defaultCoin": "ravencoin",
     "poollogo": "/website/static/img/poollogo.png",
     "discord": "Join our #mining channel on Discord: ",
-    "discordlink": "https://discord.gg/vzcbVNW",
+    "discordlink": "https://discord.gg/",
     "pagetitle": "Ravencoin Pool - 0.5 % Fees Promo - Run By Professionals",
-    "pageauthor": "JAMPS",
+    "pageauthor": "PhoenixMax",
     "pagedesc": "A reliable, low fee, easy to use mining pool for Ravencoin! Get started mining today!",
     "pagekeywds": "GPU,CPU,Hash,Hashrate,Cryptocurrency,Crypto,Mining,Pool,Ravencoin,Easy,Simple,How,To",
     "btcdonations": "1GXEm97T5iXAeYHBj2GuL3TKKRpkNas4Qt",
@@ -148,7 +148,7 @@ Change "stratumHost": "rvn.jamps.pro", to your IP or DNS in file config.json:
         "sslport": 443,
         "sslkey": "/home/pool/jamps-ravencoin-pool/certs/privkey.pem",
         "sslcert": "/home/pool/jamps-ravencoin-pool/certs/fullchain.pem",
-        "stratumHost": "rvn.jamps.pro",
+        "stratumHost": "raven.phoenixmax.org",
         "stats": {
             "updateInterval": 900,
             "historicalRetention": 43200,
@@ -271,18 +271,18 @@ Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wal
     cd ~/jamps-ravencoin-pool
     sudo bash pool-start.sh
 
-### Donates for developers JAMPS Ravencoin Pool
+### Donations for developers PhoenixMax Ravencoin Pool
 
-BTC: 1GXEm97T5iXAeYHBj2GuL3TKKRpkNas4Qt
+BTC: 1GtJwtw5YWCv4JQYY9vdnwfeiTJtix6NHy
 
-LTC: LWBZWLmjqeQFnMqS9NctcdSx3TEYHyzfGz
+LTC: LHCy4A74prb9vMC4gT8tJbinxqkxmktReh
 
-RVN: RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk
+RVN: RGMekPxjwU6pAY7SG5Gom9c6WQni3Y5jRP
     
 -------
 
 ## License
 ```
 Licensed under the GPL-3.0
-Copyright (c) 2021 JAMPS
+Copyright (c) 2021 phoenixmax.org
 ```
