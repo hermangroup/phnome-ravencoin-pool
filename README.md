@@ -14,9 +14,9 @@ Highly Efficient mining pool for Ravencoin!
 ### Node Open Mining Portal consists of 3 main modules:
 | Project | Link |
 | ------------- | ------------- |
-| [JAMPS Ravencoin Pool](https://github.com/J-A-M-P-S/jamps-ravencoin-pool) | https://github.com/J-A-M-P-S/jamps-ravencoin-pool |
-| [JAMPS Ravencoin Stratum](https://github.com/J-A-M-P-S/jamps-ravencoin-stratum) | https://github.com/J-A-M-P-S/jamps-ravencoin-stratum |
-| [JAMPS Ravencoin Hashing](https://github.com/J-A-M-P-S/jamps-ravencoin-hashing) | https://github.com/J-A-M-P-S/jamps-ravencoin-hashing |
+| [PhoenixMax Ravencoin Pool](https://github.com/Racing1/phoenixmax-ravencoin-pool) | https://github.com/Racing1/phoenixmax-ravencoin-pool |
+| [PhoenixMax Ravencoin Stratum](https://github.com/Racing1/jamps-ravencoin-stratum) | https://github.com/Racing1/jamps-ravencoin-stratum |
+| [PhoenixMax Ravencoin Hashing](https://github.com/Racing1/jamps-ravencoin-hashing) | https://github.com/Racing1/jamps-ravencoin-hashing |
 
 -------
 ### Requirements
