@@ -86,7 +86,7 @@
         "sha3": "^2.1.4",
         "sma": "^0.1.1",
         "sshpk": "^1.15.2",
-        "stratum-pool": "git+https://github.com/Racing1/phoenixmax-ravencoin-stratum.git",
+        "stratum-pool": "git+https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-stratum.git",
         "underscore": "^1.12.1",
         "winston": "^3.2.1",
         "winston-daily-rotate-file": "^3.5.1",
