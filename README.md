@@ -14,9 +14,9 @@ Highly Efficient Mining Pool for Ravencoin!
 ### Node Open Mining Portal consists of 3 main modules:
 | Project | Link |
 | ------------- | ------------- |
-| [PhoenixMax Ravencoin Pool](https://github.com/Racing1/phoenixmax-ravencoin-pool) | https://github.com/Racing1/phoenixmax-ravencoin-pool |
-| [PhoenixMax Ravencoin Stratum](https://github.com/Racing1/phoenixmax-ravencoin-stratum) | https://github.com/Racing1/phoenixmax-ravencoin-stratum |
-| [PhoenixMax Ravencoin Hashing](https://github.com/Racing1/phoenixmax-ravencoin-hashing) | https://github.com/Racing1/phoenixmax-ravencoin-hashing |
+| [PhoenixMax Ravencoin Pool](https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-pool) | https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-pool |
+| [PhoenixMax Ravencoin Stratum](https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-stratum) | https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-stratum |
+| [PhoenixMax Ravencoin Hashing](https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-hashing) | https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-hashing |
 
 -------
 ### Requirements
@@ -39,10 +39,10 @@ Highly Efficient Mining Pool for Ravencoin!
     sudo apt install wget
     wget https://github.com/RavenProject/Ravencoin/releases/download/v4.3.2.1/raven-4.3.2.1-x86_64-linux-gnu.zip
     unzip raven-4.3.2.1-x86_64-linux-gnu.zip
-    rm raven*zip
+    rm raven*zip (this step is optional)
     cd linux
     tar -xvf raven-4.3.2.1-x86_64-linux-gnu.tar.gz
-    rm raven*gz
+    rm raven*gz (this step is optional)
     cd raven-4.3.2.1/bin
     mkdir -p ~/.raven/
     touch ~/.raven/raven.conf
@@ -77,7 +77,7 @@ Other helpfull commands.
     sudo apt install git -y
     cd ~
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/Racing1/phoenixmax-ravencoin-pool.git
+    git clone https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-pool.git
     cd phoenixmax-ravencoin-pool/
     ./install.sh
 
@@ -150,7 +150,7 @@ Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.j
         "sslcert": "/home/pool/phoenixmax-ravencoin-pool/certs/fullchain.pem",
         "stratumHost": "raven.phoenixmax.org",
         "stats": {
-            "updateInterval": 900,
+            "updateInterval": 30,
             "historicalRetention": 43200,
             "hashrateWindow": 900
         }
@@ -163,7 +163,7 @@ Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.j
 
 ```
 
-Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wallet address in file ravencoin.json:
+Change "address": "your_pool_address", to your pool created wallet address in file ravencoin.json:
 
     cd ~/phoenixmax-ravencoin-pool/pools
     nano ravencoin.json
@@ -172,10 +172,10 @@ Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wal
 {
     "enabled": true,
     "coin": "ravencoin.json",
-    "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk",
-    "donateaddress": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk",
+    "address": "your_pool_address",
+    "donateaddress": "your_personal_address",
     "rewardRecipients": {
-        "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk": 0.5 // pool fee //
+        "your_personal_address": 0.5 // pool fee //
     },
     "paymentProcessing": {
         "enabled": true,
@@ -271,7 +271,7 @@ Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wal
     cd ~/phoenixmax-ravencoin-pool
     sudo bash pool-start.sh
 
-### Donations for developers PhoenixMax Ravencoin Pool
+### Donations for developers of PhoenixMax Ravencoin Pool
 
 BTC: 1GtJwtw5YWCv4JQYY9vdnwfeiTJtix6NHy
 
