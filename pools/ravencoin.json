@@ -1,10 +1,10 @@
 {
-    "enabled": false,
+    "enabled": true,
     "coin": "ravencoin.json",
-    "address": "your_wallet_address",
-    "donateaddress": "your_wallet_address",
+    "address": "your_pool_node_wallet_address",
+    "donateaddress": "your_personal_wallet_address",
     "rewardRecipients": {
-        "your_wallet_address": 0.5
+        "your_personal_wallet_address": 0.5
     },
     "paymentProcessing": {
         "enabled": true,
@@ -16,7 +16,7 @@
         "coinPrecision": 8,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 8768,
+            "port": 8766,
             "user": "your_rpc_user",
             "password": "your_rpc_password"
         }
@@ -70,7 +70,7 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 8768,
+            "port": 8766,
             "user": "your_rpc_user",
             "password": "your_rpc_password"
         }
