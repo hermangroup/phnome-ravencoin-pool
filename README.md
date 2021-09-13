@@ -39,10 +39,10 @@ Highly Efficient Mining Pool for Ravencoin!
     sudo apt install wget
     wget https://github.com/RavenProject/Ravencoin/releases/download/v4.3.2.1/raven-4.3.2.1-x86_64-linux-gnu.zip
     unzip raven-4.3.2.1-x86_64-linux-gnu.zip
-    rm raven*zip (this step is optional)
+    rm raven*zip // this step is optional //
     cd linux
     tar -xvf raven-4.3.2.1-x86_64-linux-gnu.tar.gz
-    rm raven*gz (this step is optional)
+    rm raven*gz // this step is optional //
     cd raven-4.3.2.1/bin
     mkdir -p ~/.raven/
     touch ~/.raven/raven.conf
@@ -163,7 +163,7 @@ Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.j
 
 ```
 
-Change "address": "your_pool_address", to your pool created wallet address in file ravencoin.json:
+Change "address": "your_pool_node_wallet_address", to your pool created wallet address in file ravencoin.json:
 
     cd ~/phoenixmax-ravencoin-pool/pools
     nano ravencoin.json
@@ -172,10 +172,10 @@ Change "address": "your_pool_address", to your pool created wallet address in fi
 {
     "enabled": true,
     "coin": "ravencoin.json",
-    "address": "your_pool_address",
-    "donateaddress": "your_personal_address",
+    "address": "your_pool_node_wallet_address",
+    "donateaddress": "your_personal_wallet_address",
     "rewardRecipients": {
-        "your_personal_address": 0.5 // pool fee //
+        "your_personal_wallet_address": 0.5 // pool fee //
     },
     "paymentProcessing": {
         "enabled": true,
