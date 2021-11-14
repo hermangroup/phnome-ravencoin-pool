@@ -286,5 +286,5 @@ RVN: (Will Add)
 ## License
 ```
 Licensed under the GPL-3.0
-Copyright (c) 2021 phoenixmax.org
+Copyright (c) 2021 crypticwizardry.com
 ```
