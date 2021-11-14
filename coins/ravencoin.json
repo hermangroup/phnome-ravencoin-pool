@@ -3,10 +3,10 @@
     "symbol": "RVN",    
     "algorithm": "kawpow",
     "wallet": "https://github.com/RavenProject/Ravencoin/releases",
-    "explorer":"https://explorer.ravenland.org/",
-    "explorerGetBlockJSON": "https://explorer.ravenland.org/api/getrawtransaction?decrypt=1&txid=",
-    "explorerGetBlock": "https://explorer.ravenland.org/block/",
-    "explorerGetTX": "https://explorer.ravenland.org/tx/",
+    "explorer":"https://explorer.ravenclause.com/",
+    "explorerGetBlockJSON": "https://explorer.ravenclause.com/api/getrawtransaction?decrypt=1&txid=",
+    "explorerGetBlock": "https://explorer.ravenclause.com/block/",
+    "explorerGetTX": "https://explorer.ravenclause.com/tx/",
     "blockTime": 60,
     "blockChange": 1   
 }
