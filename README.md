@@ -77,7 +77,7 @@ Other helpfull commands.
     sudo apt install git -y
     cd ~
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-pool.git
+    git clone https://github.com/rvnminers-A-and-N/crypticwizardry-ravencoin-pool.git
     cd phoenixmax-ravencoin-pool/
     ./install.sh
 
@@ -86,7 +86,7 @@ Other helpfull commands.
 
 Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.json:
 
-    cd ~/phoenixmax-ravencoin-pool
+    cd ~/crypticwizardry-ravencoin-pool
     nano config.json
 
 ```javascript
@@ -146,8 +146,8 @@ Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.j
         "host": "0.0.0.0",
         "port": 80,
         "sslport": 443,
-        "sslkey": "/home/pool/phoenixmax-ravencoin-pool/certs/privkey.pem",
-        "sslcert": "/home/pool/phoenixmax-ravencoin-pool/certs/fullchain.pem",
+        "sslkey": "/home/pool/crypticwizardry-ravencoin-pool/certs/privkey.pem",
+        "sslcert": "/home/pool/crypticwizardry-ravencoin-pool/certs/fullchain.pem",
         "stratumHost": "raven.phoenixmax.org",
         "stats": {
             "updateInterval": 30,
@@ -165,7 +165,7 @@ Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.j
 
 Change "address": "your_pool_node_wallet_address", to your pool created wallet address in file ravencoin.json:
 
-    cd ~/phoenixmax-ravencoin-pool/pools
+    cd ~/crypticwizardry-ravencoin-pool/pools
     nano ravencoin.json
 
 ```javascript
@@ -268,16 +268,18 @@ Change "address": "your_pool_node_wallet_address", to your pool created wallet a
 
 ### Run Pool
     
-    cd ~/phoenixmax-ravencoin-pool
+    cd ~/crypticwizardry-ravencoin-pool
     sudo bash pool-start.sh
 
-### Donations for developers of PhoenixMax Ravencoin Pool
+### Donations for developers of Crypticwizardry Ravencoin Pool
 
-BTC: 1GtJwtw5YWCv4JQYY9vdnwfeiTJtix6NHy
+BTC: (Will Add)
 
-LTC: LHCy4A74prb9vMC4gT8tJbinxqkxmktReh
+ETH: (Will Add)
 
-RVN: RGMekPxjwU6pAY7SG5Gom9c6WQni3Y5jRP
+LTC: (Will Add)
+
+RVN: (Will Add)
     
 -------
 
