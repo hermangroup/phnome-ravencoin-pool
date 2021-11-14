@@ -78,13 +78,13 @@ Other helpfull commands.
     cd ~
     git config --global http.https://gopkg.in.followRedirects true
     git clone https://github.com/rvnminers-A-and-N/crypticwizardry-ravencoin-pool.git
-    cd phoenixmax-ravencoin-pool/
+    cd crypticwizardry-ravencoin-pool/
     ./install.sh
 
 -------
 ### Configure Pool
 
-Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.json:
+Change "stratumHost": "crypticwizardry.com", to your IP or DNS in file config.json:
 
     cd ~/crypticwizardry-ravencoin-pool
     nano config.json
@@ -103,16 +103,16 @@ Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.j
     "poollogo": "/website/static/img/poollogo.png",
     "discord": "Join our #mining channel on Discord: ",
     "discordlink": "https://discord.gg/",
-    "pagetitle": "Ravencoin Pool - 0.5 % Fees Promo - Run By Professionals",
-    "pageauthor": "PhoenixMax",
+    "pagetitle": "Ravencoin Pool - 2.0 % Fees Promo - Run By Professionals",
+    "pageauthor": "JAMPS,rvnminers-A-and-N",
     "pagedesc": "A reliable, low fee, easy to use mining pool for Ravencoin! Get started mining today!",
     "pagekeywds": "GPU,CPU,Hash,Hashrate,Cryptocurrency,Crypto,Mining,Pool,Ravencoin,Easy,Simple,How,To",
-    "btcdonations": "1GXEm97T5iXAeYHBj2GuL3TKKRpkNas4Qt",
-    "ltcdonations": "LWBZWLmjqeQFnMqS9NctcdSx3TEYHyzfGz",
-    "rvndonations": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk",
+    "btcdonations": "Add_Here",
+    "ltcdonations": "Add_Here",
+    "rvndonations": "Add_Here",
     "logger" : {
         "level" : "debug",
-        "file" : "/home/pool/jamps-ravencoin-pool/logs/ravencoin_debug.log"
+        "file" : "/home/pool/logs-ravencoin-pool/logs/ravencoin_debug.log"
     },
     "cliHost": "127.0.0.1",
     "cliPort": 17117,
@@ -146,9 +146,9 @@ Change "stratumHost": "raven.phoenixmax.org", to your IP or DNS in file config.j
         "host": "0.0.0.0",
         "port": 80,
         "sslport": 443,
-        "sslkey": "/home/pool/crypticwizardry-ravencoin-pool/certs/privkey.pem",
-        "sslcert": "/home/pool/crypticwizardry-ravencoin-pool/certs/fullchain.pem",
-        "stratumHost": "raven.phoenixmax.org",
+        "sslkey": "/home/pool/logs-ravencoin-pool/certs/privkey.pem",
+        "sslcert": "/home/pool/logs-ravencoin-pool/certs/fullchain.pem",
+        "stratumHost": "crypticwizardry.com",
         "stats": {
             "updateInterval": 30,
             "historicalRetention": 43200,
@@ -175,7 +175,7 @@ Change "address": "your_pool_node_wallet_address", to your pool created wallet a
     "address": "your_pool_node_wallet_address",
     "donateaddress": "your_personal_wallet_address",
     "rewardRecipients": {
-        "your_personal_wallet_address": 0.5 // pool fee //
+        "your_personal_wallet_address": 2.0 // pool fee //
     },
     "paymentProcessing": {
         "enabled": true,
