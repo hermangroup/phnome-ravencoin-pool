@@ -20,7 +20,8 @@
     "contributors": [
         "Dirty Harry",
         "JAMPS",
-        "PhoenixMax"
+        "PhoenixMax",
+        "rvnminers-A-and-N"
     ],
     "main": "init.js",
     "bin": {
