@@ -14,9 +14,9 @@ Highly Efficient Mining Pool for Ravencoin!
 ### Node Open Mining Portal consists of 3 main modules:
 | Project | Link |
 | ------------- | ------------- |
-| [PhoenixMax Ravencoin Pool](https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-pool) | https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-pool |
-| [PhoenixMax Ravencoin Stratum](https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-stratum) | https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-stratum |
-| [PhoenixMax Ravencoin Hashing](https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-hashing) | https://github.com/rvnminers-A-and-N/phoenixmax-ravencoin-hashing |
+| [Crypticwizardry Ravencoin Pool](https://github.com/rvnminers-A-and-N/crypticwizardry-ravencoin-pool) | https://github.com/rvnminers-A-and-N/crypticwizardry-ravencoin-pool |
+| [Crypticwizardry Ravencoin Stratum](https://github.com/rvnminers-A-and-N/kawpow-stratum-pool) | https://github.com/rvnminers-A-and-N/kawpow-stratum-pool |
+| [Crypticwizardry Ravencoin Hashing](https://github.com/rvnminers-A-and-N/crypticwizardry-ravencoin-hashing) | https://github.com/rvnminers-A-and-N/crypticwizardry-ravencoin-hashing |
 
 -------
 ### Requirements
