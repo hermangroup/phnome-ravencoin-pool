@@ -3,7 +3,7 @@ Crypticwizardry Ravencoin Pool - v1.0 Baseline Edition
 
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue)](https://opensource.org/licenses/GPL-3.0)
 
-Highly Efficient Mining Pool for Ravencoin!
+Highly Efficient Mining Pool for Ravencoin! (Stratum Fixes For Even Better Efficiency In Progress!)
 
 -------
 ### Screenshots
