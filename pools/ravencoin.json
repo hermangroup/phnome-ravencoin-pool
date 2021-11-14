@@ -4,7 +4,7 @@
     "address": "your_pool_node_wallet_address",
     "donateaddress": "your_personal_wallet_address",
     "rewardRecipients": {
-        "your_personal_wallet_address": 0.5
+        "your_personal_wallet_address": 2.0 //Pool Fee, adjust accordingly
     },
     "paymentProcessing": {
         "enabled": true,
