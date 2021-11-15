@@ -58,7 +58,7 @@
         "sslcert": "/home/pool/logs-ravencoin-pool/certs/fullchain.pem",
         "stratumHost": "crypticwizardry.com",
         "stats": {
-            "updateInterval": 900,
+            "updateInterval": 30,
             "historicalRetention": 43200,
             "hashrateWindow": 900
         }
