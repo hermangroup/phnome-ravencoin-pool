@@ -104,7 +104,7 @@ Change "stratumHost": "crypticwizardry.com", to your IP or DNS in file config.js
     "discord": "Join our #mining channel on Discord: ",
     "discordlink": "https://discord.gg/",
     "pagetitle": "Ravencoin Pool - 2.0 % Fees Promo - Run By Professionals",
-    "pageauthor": "JAMPS,rvnminers-A-and-N",
+    "pageauthor": "rvnminers-A-and-N",
     "pagedesc": "A reliable, low fee, easy to use mining pool for Ravencoin! Get started mining today!",
     "pagekeywds": "GPU,CPU,Hash,Hashrate,Cryptocurrency,Crypto,Mining,Pool,Ravencoin,Easy,Simple,How,To",
     "btcdonations": "Add_Here",
