@@ -16,7 +16,7 @@
     "pagedesc": "A reliable, low fee, easy to use mining pool for Ravencoin! Get started mining today!",
     "pagekeywds": "GPU,CPU,Hash,Hashrate,Cryptocurrency,Crypto,Mining,Pool,Ravencoin,Easy,Simple,How,To",
     "btcdonations": "Add_Here",
-    "ltcdonations": "Add_Here"
+    "ltcdonations": "Add_Here",
     "rvndonations": "Add_Here",
     "logger" : {
         "level" : "debug",
