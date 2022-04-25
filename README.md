@@ -86,7 +86,7 @@ Other helpfull commands.
 
 Change "stratumHost": "crypticwizardry.com", to your IP or DNS in file config.json:
 
-    cd ~/crypticwizardry-ravencoin-pool
+    cd ~/phnome-ravencoin-pool
     nano config.json
 
 ```javascript
