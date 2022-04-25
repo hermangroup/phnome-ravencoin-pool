@@ -78,7 +78,7 @@ Other helpfull commands.
     cd ~
     git config --global http.https://gopkg.in.followRedirects true
     git clone https://github.com/hermangroup/phnome-ravencoin-pool.git
-    cd crypticwizardry-ravencoin-pool/
+    cd phnome-ravencoin-pool/
     ./install.sh
 
 -------
