@@ -1,6 +1,6 @@
 {
     "enabled": true,
-    "coin": "ravencoin.json",
+    "coin": "arielcoin.json",
     "address": "your_pool_node_wallet_address",
     "donateaddress": "your_personal_wallet_address",
     "rewardRecipients": {
