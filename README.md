@@ -165,7 +165,7 @@ Change "stratumHost": "crypticwizardry.com", to your IP or DNS in file config.js
 
 Change "address": "your_pool_node_wallet_address", to your pool created wallet address in file ravencoin.json:
 
-    cd ~/crypticwizardry-ravencoin-pool/pools
+    cd ~/phnome-ravencoin-pool/pools
     nano ravencoin.json
 
 ```javascript
@@ -268,7 +268,7 @@ Change "address": "your_pool_node_wallet_address", to your pool created wallet a
 
 ### Run Pool
     
-    cd ~/crypticwizardry-ravencoin-pool
+    cd ~/phnome-ravencoin-pool
     sudo bash pool-start.sh
 
 ### Donations for developers of Crypticwizardry Ravencoin Pool
