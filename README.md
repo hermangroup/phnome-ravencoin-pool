@@ -1,4 +1,4 @@
-Crypticwizardry Ravencoin Pool - v1.0 Baseline Edition
+Phnome Ravencoin Pool - v1.0.2 Baseline Edition
 ================
 
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue)](https://opensource.org/licenses/GPL-3.0)
@@ -77,7 +77,7 @@ Other helpfull commands.
     sudo apt install git -y
     cd ~
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/rvnminers-A-and-N/crypticwizardry-ravencoin-pool.git
+    git clone https://github.com/hermangroup/phnome-ravencoin-pool.git
     cd crypticwizardry-ravencoin-pool/
     ./install.sh
 
