@@ -1,0 +1,12 @@
+{
+    "name": "arielcoin",    
+    "symbol": "ARL",    
+    "algorithm": "kawpow",
+    "wallet": "https://github.com/ArielCoinOrg/arielcoin/releases/",
+    "explorer":"http://explorer.arielcoin.org/",
+    "explorerGetBlockJSON": "http://explorer.arielcoin.org/api/getrawtransaction?decrypt=1&txid=",
+    "explorerGetBlock": "http://explorer.arielcoin.org/api/getblockcount/",
+    "explorerGetTX": "http://explorer.arielcoin.org/tx/",
+    "blockTime": 60,
+    "blockChange": 1   
+}
