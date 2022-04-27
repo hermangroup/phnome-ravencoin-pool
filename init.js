@@ -229,4 +229,45 @@ var startWebsite = function () {
 		startPaymentProcessor();
 		startWebsite();
 	}, 2000);
+var startWebsite = function () {
+	if (!portalConfig.website.enabled) return;
+	var worker = cluster.fork({
+		workerType: 'website',
+		pools: JSON.stringify(poolConfigs),
+		portalConfig: JSON.stringify(portalConfig)
+	});
+	worker.on('exit', function (code, signal) {
+		logger.error('Master', 'Website', 'Website process died, spawning replacement...');
+		setTimeout(function () {
+			startWebsite(portalConfig, poolConfigs);
+		}, 2000);
+	});
+};
+var startProfitSwitch = function () {
+	if (!portalConfig.profitSwitch || !portalConfig.profitSwitch.enabled) {
+		return;
+	}
+	var worker = cluster.fork({
+		workerType: 'profitSwitch',
+		pools: JSON.stringify(poolConfigs),
+		portalConfig: JSON.stringify(portalConfig)
+	});
+	worker.on('exit', function (code, signal) {
+		logger.error('Master', 'Profit', 'Profit switching process died, spawning replacement...');
+		setTimeout(function () {
+			startWebsite(portalConfig, poolConfigs);
+		}, 2000);
+	});
+};
+(function init() {
+	poolConfigs = buildPoolConfigs();
+	auxConfigs = buildAuxConfigs();
+	spawnPoolWorkers();
+	setTimeout(function() {
+		startPaymentProcessor();
+		startAuxPaymentProcessor();
+		startWebsite();
+		startProfitSwitch();
+		startCliListener();
+	}, 2000);
 })();
